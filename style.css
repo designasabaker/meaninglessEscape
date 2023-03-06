@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#targetTrigger{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 5px;
+    left: 50%;
+    background-color: none;
+    border-radius: 15px;
+    transition: 200ms ease;
+}
+
+#target{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    border-radius: 50%;
+}
